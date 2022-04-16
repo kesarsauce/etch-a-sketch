@@ -12,6 +12,7 @@ body {
 }
 
 .dashboard {
+    display: flex;
     flex-direction: column;
     gap: 6vh;
     margin-left: -10vw;
