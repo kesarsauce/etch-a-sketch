@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.title {
+    font-family: cursive;
+    font-size: 1.4em;
+}
+
+.dashboard {
+    flex-direction: column;
+    gap: 6vh;
+    margin-left: -10vw;
+}
+
+.dashboard img {
+    height: 8vh;
+    width: 8vh;
+}
+
+.play-area {
+    display: flex;
+    gap: 20vh;
+}
+
+.container {
+    box-shadow: 2px 2px 4px 4px #7a7676;
+    height: 40vw;
+    width: 40vw;
+    display: flex;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+.selected {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+input#grid-size-input {
+    width: 1.8vw;
+}

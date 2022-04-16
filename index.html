@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="title">Etch-a-Sketch</div>
+    <div class="play-area">
+        <div class="dashboard">
+            <img id="black-pen" class="selected" src="./icons/black-pen.png">
+            <img id="rgb-pen" src="./icons/rainbow.png">
+            <img id="white-pen" src="./icons/eraser.png">
+            <span id="grid-size">
+                Board Size:<br>
+                <input type="text" id="grid-size-input" value="16">
+                <br><br><input type="button" value="Load" id="save-grid-size">
+            </span>
+        </div>
+        <div class="container"></div>
+    </div>
+</body>
+</html>
